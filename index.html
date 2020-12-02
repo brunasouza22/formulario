@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Formulário de pesquisa Escola Info</h1>
+      <p id="description">Obrigado por nos ajudar a melhorar a plataforma</p>
+    </div>
+    <main>
+      <form id="survey-form">
+        <h3>Nome</h3>
+        <input
+          type="text"
+          id="name"
+          placeholder="Entre com o seu nome"
+          required
+        />
+        <h3>Email</h3>
+        <input
+          type="email"
+          id="email"
+          placeholder="nome@dominio.com.br"
+          required
+        />
+        <h3>Telefone(Opcional)</h3>
+        <input
+          type="number"
+          id="number"
+          placeholder="Insira o seu Telefone"
+          min="0"
+          max="9"
+        />
+        <label for="prof" id="lbl-prof"
+          >Qual opção descreve melhor sua função atual?</label
+        >
+        <select id="prof" name="prof">
+          <option value="estudante">Estudante</option>
+          <option value="profissional">Profissional</option>
+          <option value="desempregado">Desempregado</option>
+        </select>
+
+        <h3>Você recomendaria a escola Info a um amigo?</h3>
+        <br />
+        <div class="btn">
+          <label for="definitivamente"
+            >Definitivamente<input
+              id="definitivamente"
+              type="radio"
+              name="btnRecomend"
+              value="definitivamente"
+              checked
+          /></label>
+          <label for="talvez"
+            >Talvez<input
+              id="talvez"
+              type="radio"
+              name="btnRecomend"
+              value="talvez"
+          /></label>
+          <label for="nao"
+            >Não tenho certeza<input
+              id="nao"
+              type="radio"
+              name="btnRecomend"
+              value="nao"
+          /></label>
+        </div>
+        <h3>
+          O que você gostaria de ver melhorado? (Marque todas as opções
+          aplicáveis)
+        </h3>
+        <br />
+        <div class="box-selection">
+          <label for="front-end"
+            >Projetos de front-end<input
+              id="front-end"
+              type="checkbox"
+              name="btnMelhorias"
+              value="front-end"
+              checked
+          /></label>
+          <label for="back-end"
+            >Projetos de back-end<input
+              id="back-end"
+              type="checkbox"
+              name="btnMelhorias"
+              value="back-end"
+          /></label>
+          <label for="visu-dados"
+            >Visualização de dados<input
+              id="visu-dados"
+              type="checkbox"
+              name="btnMelhorias"
+              value="visu-dados"
+          /></label>
+          <label for="desafios"
+            >Desafios<input
+              id="desafios"
+              type="checkbox"
+              name="btnMelhorias"
+              value="desafios"
+          /></label>
+          <label for="cod-aberto"
+            >Comunidade de código aberto<input
+              id="cod-aberto"
+              type="checkbox"
+              name="btnMelhorias"
+              value="cod-aberto"
+          /></label>
+          <label for="cursos-adc"
+            >Cursos adicionais<input
+              id="cursos-adc"
+              type="checkbox"
+              name="btnMelhorias"
+              value="cursos-adc"
+          /></label>
+          <label for="videos"
+            >Vídeos<input
+              id="videos"
+              type="checkbox"
+              name="btnMelhorias"
+              value="videos"
+          /></label>
+          <label for="forum"
+            >Fórum<input
+              id="forum"
+              type="checkbox"
+              name="btnMelhorias"
+              value="forum"
+          /></label>
+        </div>
+
+        <br />
+        <h3>Algum comentário ou sugestão?</h3>
+        <!--<input
+          id="txt-coment"
+          type="text"
+          required
+          placeholder="Deixe o seu comentario"
+        />-->
+        <textarea
+          placeholder="Deixe o seu comentário"
+          id="txt-coment"
+          name="message"
+          rows="10"
+          cols="30"
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

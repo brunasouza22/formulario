@@ -1,0 +1,117 @@
+body {
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: auto;
+  background-color: rgb(133, 133, 247);
+}
+
+h1 {
+  padding-bottom: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+p {
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-style: italic;
+  color: white;
+}
+
+#title {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  height: auto;
+  width: 60%;
+  background-color: palegreen;
+  justify-content: center;
+  margin: auto;
+  padding: 40px 0px 40px 0px;
+  background-color: rgb(46, 46, 161);
+  color: white;
+}
+
+#lbl-prof {
+  padding: 10px 0px 10px 0px;
+}
+
+#prof {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+input {
+  display: flex;
+  height: 30px;
+  width: 20px;
+  margin: 0;
+}
+
+label {
+  display: flex;
+  font-size: 20px;
+}
+
+button {
+  display: flex;
+}
+
+.btn input {
+  position: absolute;
+  left: 0;
+}
+
+.btn label {
+  position: relative;
+  padding-left: 40px;
+  padding-block: 5px;
+}
+
+.box-selection input {
+  position: absolute;
+  left: 0;
+}
+
+.box-selection label {
+  position: relative;
+  padding: 40px;
+  padding-block: 5px;
+}
+
+#txt-coment {
+  height: 80px;
+  width: 99%;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(63, 226, 112);
+  padding: 10px 0px 2px 44%;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+#name {
+  width: 100%;
+}
+
+#email {
+  width: 100%;
+}
+
+#number {
+  width: 100%;
+}
+
+h3 {
+  margin: 20px 0px 15px 0px;
+}
